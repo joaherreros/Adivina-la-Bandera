@@ -20,7 +20,7 @@ var paisesConFoto = {"Argentina": "img/ar.png",
                 "Noruega": "img/no.png",
                 "Rusia": "img/ru.png",
                 "Cuba": "img/cu.png",
-                "Canada":"img/cd.png",
+                "Canada":"img/ca.png",
                 "China":"img/cn.png",
                 "Cuba":"img/cu.png",
                 "Egipto":"img/eg.png",
@@ -32,41 +32,6 @@ var paisesConFoto = {"Argentina": "img/ar.png",
                 "México":"img/mx.png"
 
             }
-
-
-var paisesConFoto2 = {"Argentina" : "https://www.banderas-mundo.es/data/flags/w580/ar.webp",
-                "Brasil": "https://www.banderas-mundo.es/data/flags/w580/br.webp",
-                "Portugal": "https://www.banderas-mundo.es/data/flags/w580/pt.webp",
-                "Chile": "https://www.banderas-mundo.es/data/flags/w580/cl.webp",
-                "Perú":"https://www.banderas-mundo.es/data/flags/w580/pe.webp",
-                "Bolivia": "https://www.banderas-mundo.es/data/flags/w580/bo.webp",
-                "España": "https://www.banderas-mundo.es/data/flags/w580/es.webp",
-                "Alemania": "https://www.banderas-mundo.es/data/flags/w580/de.webp",
-                "Holanda": "https://www.banderas-mundo.es/data/flags/w580/nl.webp",
-                "Francia": "https://www.banderas-mundo.es/data/flags/w580/fr.webp",
-                "Italia": "https://www.banderas-mundo.es/data/flags/w580/it.webp",
-                "Uruguay": "https://www.banderas-mundo.es/data/flags/w580/uy.webp",
-                "Colombia":"https://www.banderas-mundo.es/data/flags/w580/co.webp",
-                "Ecuador": "https://www.banderas-mundo.es/data/flags/w580/ec.webp",
-                "Venezuela":"https://www.banderas-mundo.es/data/flags/w580/ve.webp",
-                "Suecia": "https://www.banderas-mundo.es/data/flags/w580/se.webp",
-                "Noruega": "https://www.banderas-mundo.es/data/flags/w580/no.webp",
-                "Rusia": "https://www.banderas-mundo.es/data/flags/w580/ru.webp",
-                "Cuba": "https://www.banderas-mundo.es/data/flags/w580/cu.webp",
-                "Canada":"https://www.banderas-mundo.es/data/flags/w580/ca.webp",
-                "China":"https://www.banderas-mundo.es/data/flags/w580/cn.webp",
-                "Cuba":"https://www.banderas-mundo.es/data/flags/w580/cu.webp",
-                "Egipto":"https://www.banderas-mundo.es/data/flags/w580/eg.webp",
-                "Gales":"https://www.banderas-mundo.es/data/flags/w580/gb-wls.webp",
-                "Ghana":"https://www.banderas-mundo.es/data/flags/w580/gh.webp",
-                "Grecia":"https://www.banderas-mundo.es/data/flags/w580/gr.webp",
-                "Israel":"https://www.banderas-mundo.es/data/flags/w580/il.webp",
-                "Japón":"https://www.banderas-mundo.es/data/flags/w580/jp.webp",
-                "México":"https://www.banderas-mundo.es/data/flags/w580/mx.webp"
-
-            }
-
-
 
 
 let paisesJugados = [];
