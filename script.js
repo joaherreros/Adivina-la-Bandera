@@ -88,6 +88,7 @@ function mostrarBandera(){
 //Funcion para intentar acertar
 function intentar(opc){
     document.getElementById("esCorrecta").style.display = "block";
+    deshabilitarBotones();
     if(opciones[opc] == correcto){
         numCorrectas++;
         document.getElementById("esCorrecta").innerHTML = "<h4 class='corr'> ¡Correcto! La bandera es de " + correcto + " </h4>";
@@ -110,15 +111,18 @@ function mostrarOpciones(){
 function siguientePregunta(){
     if(numPregunta == 10){
         terminarJuego();
+    } else{
+        correcto = crearOpCorrecta();
+        paisesJugados.push(correcto);
+        mostrarBandera();
+        crearOpciones();
+        sumarPregunta();
+        mostrarOpciones();
+        activarBotones();
+        document.getElementById("esCorrecta").style.display = "none";
+        document.getElementById("siguiente-pregunta").style.display = "none";
     }
-    document.getElementById("esCorrecta").style.display = "none";
-    correcto = crearOpCorrecta();
-    paisesJugados.push(correcto);
-    crearOpciones();
-    sumarPregunta();
-    mostrarOpciones();
-    mostrarBandera();
-    document.getElementById("siguiente-pregunta").style.display = "none";
+    
 
 }
 
@@ -143,6 +147,20 @@ function terminarJuego(){
     document.getElementById("pantalla-juego").style.display = "none";
     document.getElementById("juego-terminado").style.display = "block";
     document.getElementById("resultadoFinal").innerHTML = "<h1 class='resultadoFinal m-3'> <b>" + numCorrectas + "/10 </b></h1>"
+}
+
+function deshabilitarBotones(){
+    opc1.disabled = true;
+    opc2.disabled = true;
+    opc3.disabled = true;
+    opc4.disabled = true;
+}
+
+function activarBotones(){
+    opc1.disabled = false;
+    opc2.disabled = false;
+    opc3.disabled = false;
+    opc4.disabled = false;
 }
 
 
