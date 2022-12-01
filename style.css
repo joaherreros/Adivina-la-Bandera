@@ -1,0 +1,62 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+body{
+    background: rgb(255,239,0);
+background: radial-gradient(circle, rgba(255,239,0,1) 0%, rgba(255,158,0,1) 100%);
+}
+
+.opcion{
+    border-radius: 12px;
+    padding: 10px 15px
+}
+
+.imagen{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+#pantalla-inicial{
+    display: block;
+}
+
+#pantalla-juego{
+display: none;
+}
+
+#siguiente-pregunta{
+    display: none;
+    }
+
+#juego-terminado{
+        display: none;
+        }
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.center {
+    padding: 70px 0;
+    text-align: center;
+  }
+
+.corr{
+    color:green;
+}
+
+.inc{
+    color:red;
+}
+
+.resultadoFinal{
+    color:blue;
+}
