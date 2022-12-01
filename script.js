@@ -1,7 +1,40 @@
 //Almaceno todas las opciones que existirán en el juego.
 let paises = ["Argentina", "Brasil", "Portugal", "Chile", "Perú", "Bolivia", "España", "Alemania", "Holanda", "Francia", "Italia", "Uruguay", "Colombia", "Ecuador", "Venezuela", "Suecia", "Noruega", "Rusia", "Cuba", "Canada", "China", "Cuba", "Egipto", "Gales", "Ghana", "Grecia", "Israel", "Japón", "México"]
 
-var paisesConFoto = {"Argentina" : "https://www.banderas-mundo.es/data/flags/w580/ar.webp",
+var paisesConFoto = {"Argentina": "img/ar.png",
+                "Brasil": "img/br.png",
+                "Portugal": "img/pt.png",
+                "Chile": "img/cl.png",
+                "Perú":"img/pe.png",
+                "Bolivia": "img/bo.png",
+                "España": "img/es.png",
+                "Alemania": "img/de.png",
+                "Holanda": "img/nl.png",
+                "Francia": "img/fr.png",
+                "Italia": "img/it.png",
+                "Uruguay": "img/uy.png",
+                "Colombia":"img/co.png",
+                "Ecuador": "img/ec.png",
+                "Venezuela":"img/ve.png",
+                "Suecia": "img/se.png",
+                "Noruega": "img/no.png",
+                "Rusia": "img/ru.png",
+                "Cuba": "img/cu.png",
+                "Canada":"img/cd.png",
+                "China":"img/cn.png",
+                "Cuba":"img/cu.png",
+                "Egipto":"img/eg.png",
+                "Gales":"img/gb-wls.png",
+                "Ghana":"img/gh.png",
+                "Grecia":"img/gr.png",
+                "Israel":"img/il.png",
+                "Japón":"img/jp.png",
+                "México":"img/mx.png"
+
+            }
+
+
+var paisesConFoto2 = {"Argentina" : "https://www.banderas-mundo.es/data/flags/w580/ar.webp",
                 "Brasil": "https://www.banderas-mundo.es/data/flags/w580/br.webp",
                 "Portugal": "https://www.banderas-mundo.es/data/flags/w580/pt.webp",
                 "Chile": "https://www.banderas-mundo.es/data/flags/w580/cl.webp",
@@ -20,7 +53,7 @@ var paisesConFoto = {"Argentina" : "https://www.banderas-mundo.es/data/flags/w58
                 "Noruega": "https://www.banderas-mundo.es/data/flags/w580/no.webp",
                 "Rusia": "https://www.banderas-mundo.es/data/flags/w580/ru.webp",
                 "Cuba": "https://www.banderas-mundo.es/data/flags/w580/cu.webp",
-                "Canada":"https://www.banderas-mundo.es/data/flags/w580/cd.webp",
+                "Canada":"https://www.banderas-mundo.es/data/flags/w580/ca.webp",
                 "China":"https://www.banderas-mundo.es/data/flags/w580/cn.webp",
                 "Cuba":"https://www.banderas-mundo.es/data/flags/w580/cu.webp",
                 "Egipto":"https://www.banderas-mundo.es/data/flags/w580/eg.webp",
@@ -32,6 +65,8 @@ var paisesConFoto = {"Argentina" : "https://www.banderas-mundo.es/data/flags/w58
                 "México":"https://www.banderas-mundo.es/data/flags/w580/mx.webp"
 
             }
+
+
 
 
 let paisesJugados = [];
