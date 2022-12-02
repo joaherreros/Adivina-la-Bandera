@@ -80,7 +80,7 @@ function crearOpCorrecta(){
 
 
 function mostrarBandera(){
-    document.getElementById("imagen").innerHTML = '<img class="imagen text-center" src="'+paisesConFoto[correcto]+'" alt="">';
+    document.getElementById("imagen").innerHTML = '<img class="imagen text-center" src="'+paisesConFoto[correcto]+'" alt="Bandera">';
 }
 
 

@@ -14,9 +14,11 @@
   
 
     <!--Pantalla inicial-->
-    <div class="center" id="pantalla-inicial">
-        <div class="mt-5 text-center">
-          <h3>Las reglas son simples. ¡Adivina de qué país es la bandera que ves en pantalla!</h3>
+    <div class="text-center" id="pantalla-inicial">
+      <img class="imagen" src="img/AdivinaLaBandera.png" alt="Logo">
+        <div class="text-center">
+          <h3 class="m-3">Las reglas son simples. ¡Adivina de qué país es la bandera que ves en pantalla!</h3>
+          <h4>Son 10 preguntas y tendrás 4 opciones. ¡A jugar!</h4>
           <button type="button" class="btn btn-outline-primary btn-lg m-3" onclick="comenzarJuego()">Comenzar el juego!</button>
         </div>
         
@@ -32,21 +34,20 @@
                   <div class="imagen mb-4" id="imagen"></div>
 
                 <div class="opciones">
-                <div class="row">
-                    <div class="col-4"></div>
-                  <div class="col">
-                    <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(0)" id="op1"></button>
+                    <div class="row">
+                      <div class="col">
+                       <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(0)" id="op1"></button>
+                      </div>
+                     <div class="col">
+                      <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(1)" id="op2"></button>
+                    </div>
+                    <div class="col">
+                      <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(2)" id="op3"></button>
+                    </div>
+                    <div class="col">
+                      <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(3)" id="op4"></button>
                   </div>
-                  <div class="col">
-                    <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(1)" id="op2"></button>
-                  </div>
-                  <div class="col">
-                    <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(2)" id="op3"></button>
-                  </div>
-                  <div class="col">
-                    <button type="button" class="btn p-2 btn-outline-dark w-100 opcion" onclick="intentar(3)" id="op4"></button>
-                  </div>
-                  <div class="col-4"></div>
+                 
                 </div>
 
             </div>
