@@ -2,22 +2,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.logo{
-    height: 250px;
-    width: 800px;
-}
-
 body{
     background: rgb(255,239,0);
 background: radial-gradient(circle, rgba(255,239,0,1) 0%, rgba(255,158,0,1) 100%);
 }
-
-.opciones{
-    margin-left: 20rem;
-    margin-right: 20rem;
-}
-
-
 
 .opcion{
     border-radius: 12px;
@@ -29,7 +17,6 @@ background: radial-gradient(circle, rgba(255,239,0,1) 0%, rgba(255,158,0,1) 100%
     margin-left: auto;
     margin-right: auto;
 }
-
 
 #pantalla-inicial{
     display: block;

@@ -1,5 +1,5 @@
 //Almaceno todas las opciones que existirán en el juego.
-let paises = ["Argentina", "Brasil", "Portugal", "Chile", "Perú", "Bolivia", "España", "Alemania", "Holanda", "Francia", "Italia", "Uruguay", "Colombia", "Ecuador", "Venezuela", "Suecia", "Noruega", "Rusia", "Cuba", "Canada", "China", "Cuba", "Egipto", "Gales", "Ghana", "Grecia", "Israel", "Japón", "México"]
+let paises = ["Argentina", "Brasil", "Portugal", "Chile", "Perú", "Bolivia", "España", "Alemania",  "Holanda", "Francia", "Italia", "Uruguay", "Colombia", "Ecuador", "Venezuela", "Suecia", "Noruega", "Rusia", "Cuba", "Canada", "China", "Cuba", "Egipto", "Gales", "Ghana", "Grecia", "Israel", "Japón", "México"]
 
 var paisesConFoto = {"Argentina": "img/ar.png",
                 "Brasil": "img/br.png",
@@ -30,7 +30,6 @@ var paisesConFoto = {"Argentina": "img/ar.png",
                 "Israel":"img/il.png",
                 "Japón":"img/jp.png",
                 "México":"img/mx.png"
-
             }
 
 
@@ -74,7 +73,6 @@ function crearOpCorrecta(){
     while(paisesJugados.indexOf(opCorrecta) !== -1){
         opCorrecta = paises[Math.floor(Math.random() * paises.length)];
     } 
-
        return opCorrecta;
 }
 
@@ -96,7 +94,6 @@ function intentar(opc){
         document.getElementById("esCorrecta").innerHTML = "<h4 class='inc'> ¡Incorrecto! La bandera es de " + correcto +"</h4>";
     }
     document.getElementById("siguiente-pregunta").style.display = "block";
-
 }
 
 function mostrarOpciones(){
